@@ -9,6 +9,8 @@ for (let i = 0; i < nomes.length; i++) {
     console.log(nomes[i]); 
 }
 
+console.log(nomes.length)
+
 /*
 console.log(nomes);
 nomes[3] = "magrão"; //para adicionar uma array novo
