@@ -1,4 +1,6 @@
-const pessoa1 = {
+function meuEscopo() {
+
+    const pessoa1 = {
     nome: "Erik",
     sobrenome: "Locatelli",  
     idade: 90, 
@@ -8,6 +10,8 @@ const pessoa1 = {
     }
 
 }; 
+}
+
 pessoa1.fala(); 
 
 const carro = {
