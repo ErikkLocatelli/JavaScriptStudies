@@ -17,4 +17,3 @@ git restore (nome do arquivo) // remove as úlitmas mudanças não salvas de um 
 git restore --staged (caminho para op arquivo) //tira da área de staged
 
 // COMO INTERAGIR COM REPS REMOTOS // 
-
