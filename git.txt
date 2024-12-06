@@ -18,3 +18,14 @@ git restore --staged (caminho para op arquivo) //tira da área de staged
 
 // COMO INTERAGIR COM REPS REMOTOS // 
 
+git push origin branch(master) // caminho para dar push no rep remoto 
+git pull // dá um merge no rep remoto e add todos os novos arquivos adicionados talvez por outras pessoas da equipe ao seu código
+
+git fetch // "preve aquilo que está para ser adicionado antes que seja dado marge total no código local 
++ git diff origin/branch para verificar quais são as alterações vindas do git fetch 
+
+// GIT BRANCHS // 
+
+// modificações em um código - ramificações. Master(main) sempre vai ser a branch principal e padrão 
+
+git checkout nomeDaBranch // vai dar switch para outra e sair da main ou a que está sendo trabalhada
