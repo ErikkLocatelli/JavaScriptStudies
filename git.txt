@@ -9,3 +9,4 @@ git add (caminho para pasta ou arquivo) //deixa em estágio de pré commit, aond
 git diff // indica tudo que foi modificado no arquivo especificadamente (bom para mudanças pontuais ou erros de mudanças que acabaram sendo salvas)
 
 git commit -m "mensagem que deseja aparecer no commit"
+
