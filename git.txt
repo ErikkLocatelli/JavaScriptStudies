@@ -10,3 +10,11 @@ git diff // indica tudo que foi modificado no arquivo especificadamente (bom par
 
 git commit -m "mensagem que deseja aparecer no commit"
 
+git log // apareece quem foi o maluco que fez as mudanças e quais mudanças foram feitas, histórico no caso etc essas palhacadas
+
+git restore (nome do arquivo) // remove as úlitmas mudanças não salvas de um arquivo 
+
+git restore --staged (caminho para op arquivo) //tira da área de staged
+
+// COMO INTERAGIR COM REPS REMOTOS // 
+
