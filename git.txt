@@ -1,0 +1,7 @@
+// Alguns comandos de git legais para guardar quando necessário 
+
+git clone linkdorep //pra puxar algum rep do github 
+
+git status (dentro da pasta ou rep) //indica o status de algo (branch, se teve modifcação etc, se teve alteração com base na versão master)
+
+git add (caminho para pasta ou arquivo) //deixa em estágio de pré commit, aonde as alterações são suficientes bastando apenas subir para rede (área de stage)
