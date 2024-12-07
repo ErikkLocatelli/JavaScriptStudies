@@ -18,3 +18,4 @@ git restore --staged (caminho para op arquivo) //tira da área de staged
 
 // COMO INTERAGIR COM REPS REMOTOS // 
 
+git merge testeB
