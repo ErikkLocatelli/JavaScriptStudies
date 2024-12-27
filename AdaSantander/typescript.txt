@@ -1,0 +1,12 @@
+JavaScript com tipagem estática , TS é basicamente um JS com algumas funcionalidades a mais 
+ou seja uma extensão da linguagem, prevendo alguns fixs e corringindo bugs 
+
+Passos para configurar um arquivo TypeScript: 
+
+1. Inicializar um projeto no Node.js 
+2. Instalar o TypeScript
+    2.1 instalação global: `npm install -g typescript`
+    2.2 instalação local (mais recomendada - diretamente dentro do projeto): 'npm install typescript -D'
+3. Rodar o typescript para transpilar o código (converter o código de ts para js): npx tsc index.ts --watch (fica assistindo as mudanças e n necessita
+ficar sempre compilando o código no terminal)
+

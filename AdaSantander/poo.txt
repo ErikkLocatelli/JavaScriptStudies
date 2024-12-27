@@ -1,0 +1,27 @@
+Principais Características
+
+1. Reutilização de códigos 
+2. Modularização 
+3. Integração entre módulos 
+4. Reaproveitamento de módulos em outros sistemas (se possível)
+
+Elementos na POO 
+
+Classes: Abstração de algum elemento de mundo real. Pessoa, celular, cachorro etc. 
+Objeto: Uma representação concreta da abstração feita através da classe. Ex: Erik, Samsung, nvidia 
+Atributos: Características comuns apresentadas pelos objetos de determinada classe. Ex: nome, idade, altura (Pessoa). Memória, modelo, câmera (celular)\
+Métodos: Açoes comuns realizadas pelos objetos de uma determinada classe. Ex: Comer, dormir, levantar (Pessoa). Tirar foto, mandar mensagem (Celualar)
+
+----- Interfaces de Classe ------ 
+
+Encapsulamento: 
+
+Cada classe deve conter todas as infos necessárias para o seu funcionamento 
+bem como todos os métodos necessários para alterar essas informaçoes. Idealmente, apenas objetos da própria classe poderão alterar seus atributos e objetos de outras classes irão interagir com eles através de métodos 
+
+Public - acessível em todos os escopos 
+Private - acessível apenas dentro do objeto 
+readonly - acessível fora do objeto apenas para leitura 
+Get - getter 
+
+Herança: 

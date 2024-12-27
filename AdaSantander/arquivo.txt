@@ -1,0 +1,24 @@
+Tipos de funções assincronas dentro do JS 
+
+1. CallBack 
+
+2. Promisses. 
+
+    É um objeto que guarda uma promessa de algo irá acontecer. 
+    A promisse pode se enontrar em um dos casos abaixo: 
+        1. Pending: A promisse foi iniciada, mas está pendente 
+        2. Fullfiled: A promise foi concretizada com sucesso 
+        3. Rejected: A promisse foi rejeiada, pois houve um erro 
+
+    Exemplo de utilizacão: Pegar dados de uma API do BackEnd 
+
+    Como lidar com promessas: 
+
+        1. then - É utilizado quando a promessa é cumprida permitindo utilziar os dados dispostos pela promessa (Exemplo 
+        no código) 
+        2. catch - "captura o erro caso a promessa dê errado"
+        3. finally - Para utilizar quando a promessa for finalizada
+
+3. async await 
+
+    

@@ -1,0 +1,38 @@
+padrão JSON 
+
+JSON - JavaScript Object Notation - Notação de objetos JavaScript
+
+    - Formatação leve de troca de dados (motivo de ser tão presente no desenvolvimento WEB)
+    - Fácil para pessoas e máquinas lerem e compreenderem 
+    - Formato que independe de linguagem - suporte para diversas linguagens de programação 
+
+    Exemplo: 
+
+    {
+        "id': 1, 
+    	"nome": "Erik Locatelli",
+        "idade": 87, 
+        "mvp": true, 
+    }
+
+    Aspas sempre duplas e dentro de chaves, com valor precedido de dois pontos. 
+
+    Vantagens: 
+
+    1. Fácil intepretação/leitura e escrita/geração 
+    2. Maior velocidade na execução e transporte de dados 
+    3. Arquivo com tamanho reduzido 
+    4. Fácil de realizar "parsing" 
+
+    Aplicaçoes:  
+
+    1. Configurações do VS code. 
+    2. Aceita todos os tipos de dados 
+    3. Arquivos de Configurações - package do node modules por exemplo 
+
+    Transfêrencias de dados entre Aplicaçoes: API 
+
+    Como ler um arquivo JSON em JS 
+
+    JSON.parse(dados) -> tranfornar os dados do arquivo em um objeto do JavaScript 
+    JSON.stringfy(dados) -> trasnsforma um objeto em arquivo JSON 

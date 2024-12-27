@@ -1,0 +1,58 @@
+API - Aplication programming intarface 
+
+Conversa de troca de dados entre duas aplicações 
+
+- Api é uma intarface que nos permite utilizar funcionalidades/recursos de tertceiros, seguindo um conjunto de definiçoes/conttos estabelecidos 
+pelo terceiro. 
+
+- Pode integrar diversas apps com diversas linguagens, mas depende de uma linguagem integradora que facilite a utilização. 
+
+Exemplos: Login via gmail, facebook, linkedin etc 
+          Pagamento online 
+
+A api é importante pois reduz o tempo de desenvolvimento de novas aplicações 
+
+Tipos de APIS
+
+1. Públicas ou abertas 
+
+- Gratuitas, abertas, sem, autenticação, sem chaves secretas etc 
+
+2. Privadas ou internas 
+
+- Pagas, chave, autenticação, públicas, mas com restrições  
+
+3. Apis de parceiros 
+
+- Acordo entre duas empresas, desenvolvedores etc 
+
+----- Protocolos / Regras de uma API ------
+
+- Servem para padronizar a troca de dados entre a aplicação e a API 
+- Existe diferentes protocolos de APIS, como o RPC, SOAP, GraphQL e Rest, sendo o Rest o mais comum 
+- Rest (Representation State Transfer). É considera uma API RESTful (segue as 6 restrições da API REST)
+
+------ Quais são as restrições? ------
+
+1. Ter uma arquitetura formada por clientes, servidore e recursos, com solicitações gerenciadas por HTTP
+2. Establecer uma comunicação stateles entre cliente e servidor. Isso significa que nenhuma informação fo cliente é armazenada entre solicitações GET 
+e todas as solicitações são armazenadas e desconectadas
+3. Armazenar dados em cache para otimziar as interações entre cliente e servidor. 
+4. Ter uma interface padronizada entre os componentes. 
+
+----- Características de APis REST ----- 
+
+- Os protocolos são enviados/solicitados via protocolo HTTP. 
+- Base URL: Várias APis fornecem um endereço base. Todas as duas requisições incluirão esse endereço, e ao final dele nós colocamos detalhes específicos 
+para cada um dos recuros disponíveis, 
+- Formato do dado/recurso: Algumas Apis possuem formatos fixos de dados. Outras permite que você escolha. É comum que uma API permita que você escolha entre JSON, xml, CSV e/ou outros formatos. 
+- "Schemas": Modelo padrão do JSON disponibilizados pela API 
+- Autenticação: Os dois modelos mais comuns de autenticação são: Chave e OAuth (protocolo de autenticação), gigantes da internet costumam utilizar esse modelo 
+
+https://api.dictionaryapi.dev/api/v2/entries/en/<word> // Exemplo de Api super simples que roda diretamente no browser 
+
+
+---- Consumo de Apis ------ 
+
+Fetch Api - Api do browser 
+
