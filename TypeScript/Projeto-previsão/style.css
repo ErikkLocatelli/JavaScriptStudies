@@ -1,0 +1,66 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+main > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#search-form > form {
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+#input-localizacao {
+    flex: 1; 
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+#button-localizacao {
+    background-color: green; 
+    color: white; 
+    border: none; 
+    padding: 0rem 1rem; 
+    border-radius: 5px;
+}
+
+#tempo-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tempo-dados > h2 {
+    font-size: 18px; 
+    margin-bottom: 0.2rem;
+}
+
+.tempo-dados > span {
+    font-size: 3rem; 
+    font-weight: bold;
+}
