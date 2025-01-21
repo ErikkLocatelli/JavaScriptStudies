@@ -1,0 +1,26 @@
+React == ReactJs 
+
+O react é uma biblioteca eficiente e flexível, sendo útil no desenvolvimento de interface de usuários. 
+O reactJS pode ser utilizado para diferentes finalidades: 
+
+    1. Aplicação WEB 
+    2. Mobile 
+    3. Desktop 
+    4. Aplicativos para TV 
+    5. Aplicativos para VR 
+
+Ele nos permite criar interfaces comples a partir de pedaços de código pequenos e isolados, o que chamamos de componentes. 
+
+Como o ReacJs funciona? 
+
+Compilers e bundlers 
+
+Padrões de Aplicações 
+
+SPA - Single Page Apliccation 
+
+Componentes baseados em classes e funções, mas atualmente é mais utilizado em functions, mas ainda é comum códigos com base em classe 
+
+
+
+

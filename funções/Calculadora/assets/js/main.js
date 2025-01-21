@@ -1,5 +1,0 @@
-function criaCalculadora() {
-    return {
-        
-    }
-}

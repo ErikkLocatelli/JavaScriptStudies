@@ -44,9 +44,11 @@ class Professor extends Pessoa {
     }
 }
 // criando uma pessoa a partir da definição da classe
+const pessoas = []
 const pessoa1 = new Pessoa("Erik", 20, 1.80, "106-266-749-21");
+pessoas.push(pessoa1)
 const pessoa2 = new Pessoa("Felipe", 34, 2.34, "123456-789");
-console.log(pessoa1);
+pessoas.push(pessoa2)
 console.log(pessoa1.nome);
 console.log(pessoa1.dormir());
 console.log(pessoa1.altura);
@@ -57,3 +59,4 @@ pessoa1.cpf = "123-456-789.01";
 console.log(pessoa1.cpf);
 const professor1 = new Professor("Ricardo", 54, 1.76, "123-456-678.12", 1224, "História");
 console.log(professor1.ensinar());
+console.log(pessoas[0].cpf)

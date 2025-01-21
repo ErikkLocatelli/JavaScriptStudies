@@ -1,0 +1,27 @@
+#article {
+    display: flex;
+    gap: 1rem;
+
+}
+
+#articles img {
+    height: 180px;
+    width: 240px;
+    border-radius: 12px;
+}
+
+#articles .article-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#articles .article-info h3 {
+    font-size: 20px;
+    color: lightgray; 
+    margin-bottom: 1rem;
+}
+
+#articles .article-info p {
+    text-align: justify ;
+}

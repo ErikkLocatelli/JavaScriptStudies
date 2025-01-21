@@ -1,0 +1,29 @@
+React == ReactJs 
+
+O react é uma biblioteca eficiente e flexivel, sendo útil no desenvolvimento de interface de usuários. 
+O reactJS pode ser utilizado para diferentes finalidades: 
+
+    1. Aplicação WEB 
+    2. Mobile 
+    3. Desktop 
+    4. Aplicativos para TV 
+    5. Aplicativos para VR 
+
+Ele nos permite criar interfaces comples a partir de pedaços de código pequenos e isolados, o que chamamos de componentes. 
+
+Como o ReacJs funciona? 
+
+Compilers e bundlers 
+
+Ciclo de Vida 
+
+Fluxo de renderização dos componentes do React. Em outras palavras. trata-se de todas as etapas pelas quais um componente passa desde o seu surgimento (montagem) até o seu desaparecimento na Aplicação. 
+
+Conhecimento essencial para quem trabalha no react. Ter esse conhecimento irá te ajudar a otimizar suas aplicações. 
+
+Fases de um ciclo de vida de um componente React: 
+
+    1. Montagem 
+    2. Atualização 
+    3. Desmontagem 
+
