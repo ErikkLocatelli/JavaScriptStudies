@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="titulo">O seu número é: </h1>
+    <div id="texto">
+
+
+    </div>
+
+    <script>
+        /**
+
+        let n1 = prompt("Digite um número"); 
+        document.body.innerHTML += `Seu número é ${n1} <br/>`; 
+        document.body.innerHTML += `Raiz quadrada ${n1 ** 0.5} <br/>`; 
+        document.body.innerHTML +=  `Seu número é inteiro? ${Number.isInteger(n1)}<br/>`;
+        document.body.innerHTML += `Arrednondando para baixo: ${Math.floor(n1)}<br/>`; 
+        document.body.innerHTML += `Arredonando para cima: ${Math.ceil(n1)}<br/>`; 
+        document.body.innerHTML += `Com duas casas decimais: ${n1.toFixed(2)}<br/>`; */
+
+        let n1 = Number(prompt("Digite um número")); 
+        let n2 = n1; 
+        const numTitulo = document.getElementById("titulo"); 
+        const texto = document.getElementById("texto"); 
+        const corrigido = n2.toFixed(); 
+        
+        numTitulo.innerHTML = n1; 
+        texto.innerHTML +=`Raiz quadrada ${n1 ** 0.5} <br/>`; 
+        texto.innerHTML += `Seu número é inteiro? ${Number.isInteger(n1)}<br/>`; 
+        texto.innerHTML += `Arrednondando para baixo: ${Math.floor(n1)}<br/>`; 
+        texto.innerHTML += `Com duas casas decimais: ${corrigido}`;
+
+    </script>
+</body>
+</html>
