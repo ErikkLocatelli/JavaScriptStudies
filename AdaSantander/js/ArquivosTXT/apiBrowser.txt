@@ -1,0 +1,35 @@
+APIs e DOM 
+
+Exemplos de APIs do navegador: 
+
+1. WEB API notifications: gerencia notificações. 
+2. WEB audio API: manipula áudios no navegador. 
+3. WEB storage API: armazenamento de dados no navegador. 
+
+As APIS do browser são baseadas na linguagem JS, mas há casos em que as mesmas são feitas em C, C++ etc. 
+
+DOM API - integração do JS com HTML e CSS 
+
+DOM - Document Object Model - Modelo de Objeto de Documentos 
+
+Escuta de eventos e API de consumo de dados do browser 
+
+Web Storage Api 
+
+Armazenamento de dados do lado do cliente. 
+
+O client side storage pode ser utilizado para diferentes finalidades, tais como: 
+
+    	1. Personalizar as preferências do site (tema claro/escuro pré definido em uma visita anterior)
+        2. Atividade anterior feita no site (Ex: Salvar o carrinho de uma loja montado em uma visita)
+        3. Salvar, localmente documentos gerados durante o uso de alguma aplicação 
+
+Tipos de client side storage: 
+
+    1. Cookies 
+    2. Local storage 
+    3. Session Storage 
+
+1. Local Storage: ele guarda os dados de cada aplicação de forma isolada, baseando-se na URL base da página. Todos esses dados continuam armazenados mesmo se o navegador for fechado e aberto novamente. 
+
+2. Session Storage: o armazenamento funciona da mesma forma nele, mas os dados ficam disponíveis apenas durante a sessão na página. Portanto, quanto a página do navegador estiver aberta, as informações e dados continuaram nele. 
